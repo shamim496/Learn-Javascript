@@ -210,6 +210,10 @@ let position = fruits.lastIndexOf("Apple");
 console.log(position);
 
 // Array includes()
+const fruit = ["Apple", "Orange", "jackfruits", "Mango"];
+let includ = fruit.includes("Apple");
+console.log(includ);
+
 // Array find()
 // Array findIndex()
 // Array findLast()
