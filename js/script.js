@@ -184,10 +184,15 @@
 // let splice = fruits.slice(2,0, "Lemon", "Kiwi");
 // console.log(fruits);
 
-// Array Sort()
+// 13 Javascript Sorting Array
+
+// Alpabetic Sort
+
+// Array sort()
+
 const points = [40, 100, 1, 5, 25, 10];
 points.sort(function (a, b) {
-    return b - a ;
+    return b - a;
 });
 console.log(points);
 
@@ -196,6 +201,20 @@ point.sort(function (a, b) {
     return 0.5 - Math.random();
 });
 console.log(point);
+
+// Array reverse()
+// Array toSorted()
+// Array toReversed()
+// Sorting Objects
+
+// Numeric Sort
+
+// Numeric Sort
+// Random Sort
+// Math.min()
+// Math.max()
+// Home made Min()
+// Home made Max()
 
 // 13. Array Search Method
 
