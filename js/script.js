@@ -1,10 +1,10 @@
-// 1. Javascript Variables
+// 1. ***Javascript Variables***
 
 // using var
 // using let
 // using const
 
-// 2. Function
+// 2. ***Function***
 
 // function name(parameter1, parameter2, parameter3) {
 
@@ -18,7 +18,7 @@
 //   return a * b;
 // }
 
-// 3. Object
+// 3. ***Object***
 
 // const person = {
 //   firstName: "John",
@@ -38,7 +38,7 @@
 //   }
 // };
 
-// 4. String Method
+// 4. ***String Method***
 
 
 // String length
@@ -62,7 +62,7 @@
 // String replaceAll()
 // String split()
 
-// 5. String Search Method
+// 5. ***String Search Method***
 
 // String indexOf()
 // String lastIndexOf()
@@ -73,13 +73,13 @@
 // String startsWith()
 // String endsWith()
 
-// 6. JavaScript Template Strings
+// 6. ***JavaScript Template Strings***
 
 // let firstName = "John";
 // let lastName = "Doe";
 // let text = `Welcome ${firstName}, ${lastName}!`;
 
-// 7. JavaScript Numbers
+// 7. ***JavaScript Numbers***
 
 // Binarry Base 2 = 0-1
 // Decimal Base 10 = 0-9
@@ -88,13 +88,13 @@
 // let x = 123e5;    // 12300000
 // let y = 123e-5;  // 0.00123
 
-// 8. Javascript BigInt
+// 8. ***Javascript BigInt***
 
 // let x = 1234567890123456789012345n;
 // let y = BigInt(1234567890123456789012345)
 // console.lo(y);
 
-// 9. JavaScript Number Methods
+// 9. ***JavaScript Number Methods***
 
 // toString()
 // toExponential()
@@ -109,7 +109,7 @@
 // Number.parseFloat()
 // Number.parseInt()
 
-// 10. JavaScript Number Properties
+// 10. ***JavaScript Number Properties***
 
 // EPSILON	The difference between 1 and the smallest number > 1.
 // MAX_VALUE	The largest number possible in JavaScript
@@ -120,11 +120,11 @@
 // NEGATIVE_INFINITY	Negative infinity(returned on overflow)
 // NaN not a Number
 
-// 11. Arrays
+// 11. ***Arrays***
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-// 12. Array Method
+// 12. ***Array Method***
 
 // Array length
 // const fruits = ["Apple","Orange","Jackfruits"];
@@ -184,23 +184,23 @@
 // let splice = fruits.slice(2,0, "Lemon", "Kiwi");
 // console.log(fruits);
 
-// 13 Javascript Sorting Array
+// 13 ***Javascript Sorting Array***
 
 // Alpabetic Sort
 
 // Array sort()
 
-const points = [40, 100, 1, 5, 25, 10];
-points.sort(function (a, b) {
-    return b - a;
-});
-console.log(points);
+// const points = [40, 100, 1, 5, 25, 10];
+// points.sort(function (a, b) {
+//     return b - a;
+// });
+// console.log(points);
 
-const point = [40, 100, 1, 5, 25, 10];
-point.sort(function (a, b) {
-    return 0.5 - Math.random();
-});
-console.log(point);
+// const point = [40, 100, 1, 5, 25, 10];
+// point.sort(function (a, b) {
+//     return 0.5 - Math.random();
+// });
+// console.log(point);
 
 // Array reverse()
 // Array toSorted()
@@ -216,7 +216,7 @@ console.log(point);
 // Home made Min()
 // Home made Max()
 
-// 13. Array Search Method
+// 14. ***Array Search Method***
 
 // Array indexOf()
 // const fruits = ["Apple", "Orange", "Apple", "Mango"];
@@ -224,23 +224,107 @@ console.log(point);
 // console.log(position);
 
 // Array lastIndexOf()
-const fruits = ["Apple", "Orange", "jackfruits", "Mango"];
-let position = fruits.lastIndexOf("Apple");
-console.log(position);
+// const fruits = ["Apple", "Orange", "jackfruits", "Mango"];
+// let position = fruits.lastIndexOf("Orange");
+// console.log(position);
 
-// Array includes()
-const fruit = ["Apple", "Orange", "jackfruits", "Mango"];
-let includ = fruit.includes("Apple");
-console.log(includ);
+// // Array includes() true/ false
+// const fruit = ["Apple", "Orange", "jackfruits", "Mango"];
+// let includ = fruit.includes("Apple");
+// console.log(includ);
 
-// Array find()
-const numbers = [4, 9, 16, 25, 29];
-let first = numbers.find(myFunction);
+// Array find(value, index, array)
+// const numbers = [4, 9, 16, 25, 29];
 
-function myFunction(value, index, array) {
-    return value > 18;
-}
-console.log(first);
+// function myFunction(value, index, array) {
+//     return value > 18;
+// }
+// let first = numbers.find(myFunction);
+// console.log(first);
+
 // Array findIndex()
+
 // Array findLast()
 // Array findLastIndex()
+
+// 15. ***Array Iteration Methods***
+
+// Array forEach(value, index, array)
+// const numbers = [45, 4, 5, 6, 7];
+// function myFunction(value, index, array) {
+//     console.log(value);
+//     console.log(index);
+//     console.log(array);
+//     console.log("------");
+// }
+// numbers.forEach(myFunction);
+
+// Array map(value, index, array)
+// const maps = [45, 4, 5, 6, 7];
+// function myFunction(value) {
+//     return value + 2;
+// }
+// const newArray = maps.map(myFunction);
+// console.log(newArray);
+
+// Array flatMap()
+
+// Array filter(value, index, array)
+// const numbers = [45, 4, 5, 6, 7, 12];
+// function myFunction(value) {
+//     return value > 10;
+// }
+// const newArray = numbers.filter(myFunction);
+// console.log(newArray);
+
+// Array reduce(total, value, index, array)
+// const numbers = [45, 4, 5, 6, 7, 12];
+// function myFunction(total, value, index, array) {
+//     console.log(total);
+//     return total + value;
+// }
+// const newArray = numbers.reduce(myFunction);
+// console.log(newArray);
+
+// const numbers = [45, 4, 9, 16, 25];
+// function myFunction(total, value, index, array) {
+//     console.log(total);
+//     return total + value;
+// }
+// const newArray = numbers.reduce(myFunction, 10);
+// console.log(newArray);
+
+// Array reduceRight(total, value, index, array)
+// const numbers = [45, 4, 5, 6, 7, 12];
+// function myFunction(total, value, index, array) {
+//     console.log(total);
+//     return total + value;
+// }
+// const newArray = numbers.reduceRight(myFunction);
+// console.log(newArray);
+
+// Array every(value, index, array) true/ false value return
+// const numbers = [45, 4, 5, 6, 7, 12];
+// function myFunction(value, index, array) {
+//     return value > 2;
+// }
+// const newNumbers = numbers.every(myFunction);
+// console.log(newNumbers);
+
+// Array some()
+// const numbers = [45, 4, 5, 6, 7, 12];
+// function myFunction(value, index, array) {
+//     return value < 5;
+// }
+// const newNumbers = numbers.some(myFunction);
+// console.log(newNumbers);
+
+// Array.from()
+// const ary = Array.from("ABCDEFGH");
+// console.log(ary);
+
+// Array keys()
+
+// Array entries()
+// Array with()
+// Array Spread(...)
