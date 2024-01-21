@@ -324,7 +324,9 @@
 // console.log(ary);
 
 // Array keys()
-
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const keys = fruits.keys();
+console.log(keys);
 // Array entries()
 // Array with()
 // Array Spread(...)
