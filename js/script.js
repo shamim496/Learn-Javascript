@@ -324,9 +324,62 @@
 // console.log(ary);
 
 // Array keys()
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-const keys = fruits.keys();
-console.log(keys);
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const keys = fruits.keys();
+// console.log(keys);
 // Array entries()
 // Array with()
 // Array Spread(...)
+
+// 16 ***Array Constant***
+
+// Array list of value, Array name not change, Box with Change
+// Const Block scope
+// const cars = ["Volvo", "BMW"];   // Allowed
+// {
+//     const cars = ["Volvo", "BMW"]; // Allowed
+// }
+// {
+//     const cars = ["Volvo", "BMW"]; // Allowed
+// }
+
+// 17 *** Javascript Dates ***
+
+// const date = new Date(); Constructor
+
+// Creating Date Objects
+// new Date()
+// new Date(date string)
+
+// new Date(year, month)
+// new Date(year, month, day)
+// new Date(year, month, day, hours)
+// new Date(year, month, day, hours, minutes)
+// new Date(year, month, day, hours, minutes, seconds)
+// new Date(year, month, day, hours, minutes, seconds, ms)
+
+// const dat = new Date(2024);
+// console.log(dat);
+
+// 18 *** Date Formats ***
+
+// Javascript Date Input
+// ISO Date "2015-03-25"
+// Short Date "03/25/2015"
+// Long Date "Mar 25 2015"
+// Date Input - Parse() Dates
+
+// 19 *** Date Get Methods ***
+
+// getFullYear()	Get year as a four digit number(yyyy)
+// getMonth()	Get month as a number(0 - 11)
+// getDate()	Get day as a number(1 - 31)
+// getDay()	Get weekday as a number(0 - 6)
+// getHours()	Get hour(0 - 23)
+// getMinutes()	Get minute(0 - 59)
+// getSeconds()	Get second(0 - 59)
+// getMilliseconds()	Get millisecond(0 - 999)
+// getTime()	Get time(milliseconds since January 1, 1970)
+
+// const d = new Date();
+// console.log(d.getTime());
