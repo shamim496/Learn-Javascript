@@ -372,6 +372,11 @@
 // 19 *** Date Get Methods ***
 
 // getFullYear()	Get year as a four digit number(yyyy)
+// const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+// const d = new Date("2021-03-25");
+// let month = months[d.getMonth()];
+// console.log(month);
+
 // getMonth()	Get month as a number(0 - 11)
 // getDate()	Get day as a number(1 - 31)
 // getDay()	Get weekday as a number(0 - 6)
@@ -383,3 +388,190 @@
 
 // const d = new Date();
 // console.log(d.getTime());
+
+// 19 *** Date Set Methods ***
+
+// setDate()	Set the day as a number(1 - 31)
+// setFullYear()	Set the year(optionally month and day)
+// setHours()	Set the hour(0 - 23)
+// setMilliseconds()	Set the milliseconds(0 - 999)
+// setMinutes()	Set the minutes(0 - 59)
+// setMonth()	Set the month(0 - 11)
+// setSeconds()	Set the seconds(0 - 59)
+// setTime()	Set the time(milliseconds since January 1, 1970)
+
+// let text = "";
+// const today = new Date();
+// const someday = new Date();
+
+// console.log(today);
+// console.log(someday);
+
+// someday.setFullYear(2100, 1, 14);
+
+// if (someday > today) {
+//     console.log(text = "Today is before jaunary 14 2100.");
+// }else{
+//     console.log(text = "Today is after Jaunary 14, 2100.");
+// }
+
+// 19 *** Javascript Math Object ***
+
+// Example
+// Math.E        // returns Euler's number
+// Math.PI       // returns PI
+// Math.SQRT2    // returns the square root of 2
+// Math.SQRT1_2  // returns the square root of 1/2
+// Math.LN2      // returns the natural logarithm of 2
+// Math.LN10     // returns the natural logarithm of 10
+// Math.LOG2E    // returns base 2 logarithm of E
+// Math.LOG10E   // returns base 10 logarithm of E
+
+// Math Methods Number To Integer
+// Math.round(4.5 up/4.4 down)
+// Math.ceil(4.5 up/4.6 up)
+// Math.floor(4.1/4.2/4.7 down)
+// Math.trunc(4.5 points right cut)
+
+// Math.sign(;)
+// Math.sign(-4);
+// Math.sign(0);
+// Math.sign(4);
+
+// Math.pow()
+// const po =Math.pow(8, 2);
+// console.log(po);
+
+// Math.sqrt(x) returns the square root of x:
+// const sqr = Math.sqrt(64);
+// console.log(sqr);
+
+// Math.abs() returns the absolute (positive) value of x:
+// const ab = Math.abs(-4.7);
+// console.log(ab);
+
+// Math.sin();
+// const si = Math.sin(90 * Math.PI/180);
+// console.log(si);
+
+// Math.min() and Math.max()
+// const mi = Math.min(150, 20, 10, 20, 3, 9);
+// console.log(mi);
+// const mi = Math.max(150, 20, 10, 20, 3, 9);
+// console.log(mi);
+
+// Math.random()
+// returns a random number between 0(inclusive), and 1(exclusive):
+
+// Math.random();
+
+// Math.log(10);
+
+// Math.log2();
+// Math.log10();
+
+// 20 *** JavaScript Random ***
+
+// Math.random()
+// Returns a random integer form 0 to 9
+// const rand = Math.random() * 10;
+// console.log(rand);
+
+// Returns a random interger from 0 to 10
+// const fl = Math.floor(Math.random() * 11);
+// console.log(fl);
+
+// A proper Random funtion
+// function getInterger(min, max) {
+//     return Math.floor(Math.random() * max - min) + min;
+// }
+// const myFunction = getInterger(0, 21);
+// console.log(myFunction);
+
+// function getRndInteger(min, max) {
+//     return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+// const myFunction = getRndInteger(0, 20);
+// console.log(myFunction);
+
+// 20 *** Problem Sloving Javascript ***
+
+// Random ludu number
+// function getRndInteger(min, max) {
+//     return Math.floor(Math.random() * (max-min+1))+min;
+// }
+// console.log(getRndInteger(1, 6));
+
+// // Alphabetically name
+// const students = ["shamim", "hasan", "arif", "saad"];
+// console.log(students.sort());
+
+// // roll number chrome big small
+// const roll_numbers = [2,3,56,1,8,9,];
+
+// console.log(roll_numbers.sort(function (a, b) {
+//     return a - b;
+// }));
+
+// // leap year
+// function isleap(year) {
+//     if((year % 400 ===0) || ((year % 4 === 0) && (year % 100 !== 0))) {
+//         console.log(`${year} is a leap year`);
+//     }else{
+//         console.log(`${year} is not a leap year`);
+//     }
+// }
+
+// isleap(2024);
+
+// sentence vowels count
+
+// const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+
+// function countVowels(sentence) {
+//     let count = 0;
+//     const letters = Array.from(sentence);
+
+//     letters.forEach(function (value){
+//         if (vowels.includes(value)) {
+//             count++;
+//         }
+//     });
+//     return count;
+// }
+
+// console.log(countVowels("i love bangladesh"));
+
+// const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+
+// function countVowels(sentence) {
+//     let count = 0;
+//     const letters = Array.from(sentence);
+
+//     letters.forEach(function (value) {
+//         if (vowels.includes(value)) {
+//             count++;
+//         }
+//     });
+//     return count;
+// }
+
+// console.log(countVowels("I love Bangladesh"));
+
+//Duplicate number
+
+// const numbers = [1,5,5,5,4,4,3,8,6,6,7,9,10,10,8,11,12];
+
+// const duplicate = numbers.filter(function (value, index, array) {
+//     return array.indexOf(value) !== index
+// });
+
+// console.log(duplicate);
+
+// const numbers = [1, 5, 5, 5, 4, 4, 3, 8, 6, 6, 7, 9, 10, 10, 8, 11, 12];
+
+// const duplicate = numbers.filter(function (value, index, array) {
+//     return array.indexOf(value) == index
+// });
+
+// console.log(duplicate);
