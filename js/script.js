@@ -705,3 +705,42 @@
 // for (let number in numbers){
 //     console.log(numbers[number]);
 // }
+
+// 24 *** Javascript For of loop iterable object ***
+
+// iterable object Arrays, Strings, Maps, Nodelists and MutationRecord;
+
+// let a = [1, 5, 6, 7]; for of array used
+
+// for (let x of a) {
+//     console.log(x);
+// }
+
+// 25 *** While Loop ***
+
+// Syntax
+
+// while (condition) {
+//     // code block to be executed
+// }
+
+// let i = 0;
+// let text = "";
+
+// while (i < 10) {
+//     text += "the number is" + i;
+//     i++;
+// }
+
+// console.log(text);
+
+// Do while loop
+// let i = 0;
+// let text = "";
+
+// do {
+//     text += "the number is" + i;
+//     i++;
+// } while (i < 10);
+
+// console.log(text);
