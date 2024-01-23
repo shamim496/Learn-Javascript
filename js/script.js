@@ -667,8 +667,9 @@
 
 // document.getElementById("demo").innerHTML = `Today is ${day}`;
 
-// 23 *** For Loop ***
+// 23 *** Javascript For Loop ***
 
+// For loop
 // const cars = ["A", "B", "C", "D", "E", "F", "G"];
 
 // for (i = 0; i < cars.length; i++) {
@@ -677,12 +678,30 @@
 // }
 // console.log("i am done");
 
-let i = 10;
+// let i = 10;
 
-for (; ; i--){
-    if (i == 5) {
-        break;
-    }else{
-        console.log(i);
-    }
-}
+// for (; ; i--){
+//     if (i == 5) {
+//         break;
+//     }else{
+//         console.log(i);
+//     }
+// }
+
+// Javascript for in loop
+// const person = { // object loop
+//     fname: "Shamim",
+//     lame: "Hasan",
+//     age: 25
+// };
+
+// // x porperity fname,lanme,age
+// for (let x in person){
+//     console.log(person[x]); //arrray sentence
+// }
+
+// const numbers = [45, 4, 9, 16, 25]; //array not used
+
+// for (let number in numbers){
+//     console.log(numbers[number]);
+// }
