@@ -640,29 +640,49 @@
 
 // switch statement
 
-switch (new Date().getDay()) {
-    case 0:
-        day = "Sunday";
-        break;
-    case 1:
-        day = "Monday";
-        break;
-    case 2:
-        day = "Tuesday";
-        break;
-    case 3:
-        day = "Wednesday";
-        break;
-    case 4:
-        day = "Thursday";
-        break;
-    case 5:
-        day = "Friday";
-        break;
-    case 6:
-        day = "Saturday";
-    default:
-        text = "Looking forward to the weekend";
-}
+// switch (new Date().getDay()) {
+//     case 0:
+//         day = "Sunday";
+//         break;
+//     case 1:
+//         day = "Monday";
+//         break;
+//     case 2:
+//         day = "Tuesday";
+//         break;
+//     case 3:
+//         day = "Wednesday";
+//         break;
+//     case 4:
+//         day = "Thursday";
+//         break;
+//     case 5:
+//         day = "Friday";
+//         break;
+//     case 6:
+//         day = "Saturday";
+//     default:
+//         text = "Looking forward to the weekend";
+// }
 
-document.getElementById("demo").innerHTML = `Today is ${day}`;
+// document.getElementById("demo").innerHTML = `Today is ${day}`;
+
+// 23 *** For Loop ***
+
+// const cars = ["A", "B", "C", "D", "E", "F", "G"];
+
+// for (i = 0; i < cars.length; i++) {
+//     console.log(i);
+
+// }
+// console.log("i am done");
+
+let i = 10;
+
+for (; ; i--){
+    if (i == 5) {
+        break;
+    }else{
+        console.log(i);
+    }
+}
