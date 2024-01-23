@@ -575,3 +575,94 @@
 // });
 
 // console.log(duplicate);
+
+// 20 *** Booleans Function() ***
+
+// Boolean(10>9); //return true
+// false c value null, Nan, false, undefined, 0, empty string,
+
+
+// 21 *** Comparison operators ***
+
+// let age = 17;
+
+// if(age >= 18) {
+//     console.log ("you are adult");
+// }else{
+//     console.log("you are not adult");
+// }
+
+// let age = 17;
+
+// if (age >16 && age < 18 && age == 17) {
+//     console.log("you are adult");
+// } else {
+//     console.log("you are not adult");
+// }
+
+// Ternary Operator
+// let age = 30;
+// console.log(age >= 18 ? (age > 30) ? "your are adult" : "your are old" : "your are not adult");
+
+// let age = 17;
+// age = Number(age);
+
+// if(isNaN(age)){ //checking
+//     console.log("input is not a number");
+// }else{
+//     console.log(age < 18 ? "Too young" : "Old enough");
+// }
+
+// 22 *** Condition If else else if ***
+
+// if
+// else
+// else if
+// switch
+
+// The else Statement
+
+// if (condition) {
+
+// }
+
+// let age = 31;
+
+// if (age < 18) {
+//     console.log("you are young");
+// }else if (age == 18) {
+//     console.log("welcome adult");
+// }else if (age > 18 && age < 30) {
+//     console.log("you are matured");
+// }else{
+//     console.log("you are old");
+// }
+
+// switch statement
+
+switch (new Date().getDay()) {
+    case 0:
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case 6:
+        day = "Saturday";
+    default:
+        text = "Looking forward to the weekend";
+}
+
+document.getElementById("demo").innerHTML = `Today is ${day}`;
