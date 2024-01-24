@@ -744,3 +744,64 @@
 // } while (i < 10);
 
 // console.log(text);
+
+// 26 *** Break and Continue ***
+
+// Break
+// let text = "";
+
+// for (let i = 0; i < 10; i++) {
+//     if (i === 3) { break; }
+//     text += "The number is " + i + "<br>";
+// }
+// console.log(text);
+
+// Javascript Label
+// label:
+// statement
+
+// 27 *** Javascript ilterable ***
+
+// const person = {
+//     fname: "Shamim",
+//     lname: 'islam',
+// }
+
+// lterating over a set
+// Create a Set map string
+
+// const letters = new Set(["a", "b", "c"]);
+
+// for (const x of letters) {
+//     // code block to be executed
+// }
+
+// 28 *** Javascript Sets Method ***
+
+// new Set()
+// Create a Set
+// const myset = new Set();
+// create varibles
+
+// Add Values to the Set
+// myset.add("a");
+// myset.add("b");
+// myset.add("c");
+// console.log(myset);
+
+// add()
+// delete ()
+// has()
+// forEach()
+// const letters = new Set(["A", "B", "C"]);
+
+// let text = "";
+// letters.forEach(function (value) {
+//     text += value;
+// })
+// console.log(text);
+
+// values()
+// const letter = new Set(["a", "b", "c", "d"]);
+
+// console.log(letter.values());
