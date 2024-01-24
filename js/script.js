@@ -805,3 +805,6 @@
 // const letter = new Set(["a", "b", "c", "d"]);
 
 // console.log(letter.values());
+
+// 29 ***Javascript Maps Methods
+
