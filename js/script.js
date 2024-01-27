@@ -267,6 +267,20 @@
 // const newArray = maps.map(myFunction);
 // console.log(newArray);
 
+// const number = [10, 20, 30, 40, 50];
+// const object = [
+//     {name: 'Humayun Ahmed', books: 30},
+//     {name: 'Jafar Iqbal', books: 10},
+//     {name: 'ahmed sorif', books: 3},
+// ];
+
+// const newObject = object.map(function (item) {
+//     return item.name;
+//     return item.books;
+// });
+// console.log(object);
+// console.log(newObject);
+
 // Array flatMap()
 
 // Array filter(value, index, array)
@@ -806,5 +820,49 @@
 
 // console.log(letter.values());
 
-// 29 ***Javascript Maps Methods
+// 29 *** Javascript Maps Methods ***
+
+// Create a Map key value map
+
+// new Map();
+// set();
+// get();
+// delete();
+// has();
+
+// forEach(); key value:
+// create forEach()
+// const fruits = new Map([
+//     ["apple", 500],
+//     ["bananas", 300],
+//     ["oranges", 200],
+// ]);
+
+// let text = "";
+// fruits.forEach(function (value) {
+// text += value;
+// });
+// console.log(text);
+
+// Create a Map
+// const fruits = new Map();
+
+
+// key apple, value 500
+
+// fruits.set("apples", 500);
+// fruits.set("bananas", 300);
+// fruits.set("oranges", 200);
+// console.log(fruits);
+
+// 30 *** Javascript Typeof ***
+
+// javascript there are 5 different data typers that can contain values
+// string, number, boolean, object, function
+
+// javascript are 6 types of object
+// object, date, array, string, number, boolean
+
+// and 2 data types that cannot contain values
+// null, undefined
 
