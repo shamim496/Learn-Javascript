@@ -901,10 +901,21 @@
 // }
 // console.log(isArray([1, 2, 3]));
 
-let person = {
-    fname: "shamim",
-    lname: "hasan",
-    age: "20",
-    eyecolor: "black"
-};
-console.log(person.null);
+// let person = {
+//     fname: "shamim",
+//     lname: "hasan",
+//     age: "20",
+//     eyecolor: "black"
+// };
+// console.log(person.null);
+
+// typeof undefined //undefined
+// typeof null //object
+
+// null === undefined //false
+// null == undefined // true
+
+// *** Javascript Type Conversion ***
+
+// console.log(Number("               "));
+// console.log(Number("99 88"));
