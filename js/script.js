@@ -919,3 +919,24 @@
 
 // console.log(Number("               "));
 // console.log(Number("99 88"));
+// console.log(parseFloat("3.2"));
+// console.log(parseInt("3.6"));
+
+// Unary Opertor
+// let y = "5";
+// let x =+ y;
+
+// converting numbers to strings
+// console.log(String(100+23));
+
+// let a = 10e6;
+// console.log(a.toExponential());
+
+// let b = 10.3776543;
+// console.log(b.toPrecision());
+
+// Converting Boolean to String
+// String(false);
+// String(true);
+
+// Automatic type Conversion
