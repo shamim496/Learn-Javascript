@@ -915,7 +915,7 @@
 // null === undefined //false
 // null == undefined // true
 
-// *** Javascript Type Conversion ***
+// 31 *** Javascript Type Conversion ***
 
 // console.log(Number("               "));
 // console.log(Number("99 88"));
@@ -940,3 +940,17 @@
 // String(true);
 
 // Automatic type Conversion
+
+// 32 ***Javascript Bitwise Operations***
+
+// (3).toString();
+
+// 33 ***Javascript Regular Expressions***
+
+// let text = "12345567";
+// let result = text.match(/[1-4]/g);
+// console.log(result);
+
+// let color = "re, green, green, gren, gr, blue, yellow";
+// let result = color.match(/(red|green)/g);
+// console.log(result);
