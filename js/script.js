@@ -995,3 +995,23 @@ function myFunction() {
 
 // var is Global scope and function scope
 // let const is block scope
+
+// Global variables in Html
+//  var carName = "volvo";
+//  console.log(window.carName);
+
+//  var carNam = "BMW";
+//  function A() {
+//     let a = 5;
+//     console.log(a);
+//  }
+
+//  A();
+
+// function A(a, b) {
+//     // a, b local Variables
+//     console.log(a+b);
+// }
+// A(4,5);
+
+// 36 *** Javascript Hosting ***
