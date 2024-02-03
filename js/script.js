@@ -954,3 +954,44 @@
 // let color = "re, green, green, gren, gr, blue, yellow";
 // let result = color.match(/(red|green)/g);
 // console.log(result);
+
+// 34 *** Javascript Errors Throw and Try To catch ***
+
+// Try, Catch, Throw, Finally
+
+// try {
+
+// } catch (error) {
+
+// }
+
+// Javascript Throw Errors
+
+// let x = "";
+// try {
+//     if (x == "") throw "empty";
+//     if(isNaN(x)) throw "not a number";
+//     x = Number(x);
+//     if(x < 5 ) throw "too low";
+//     if (x > 10 ) throw "Too high";
+// }
+// catch (err) {
+//     console.log(err);
+// }
+
+// console.log("this is a test");
+
+// 35 *** Javascript Scope ***
+
+// Javascript Has 3 types of scope
+// Block scope, Function scope, Global scope
+
+// Block Scope
+// let, const block scope in javascript
+
+function myFunction() {
+    // let x; local variables function scope
+}
+
+// var is Global scope and function scope
+// let const is block scope
