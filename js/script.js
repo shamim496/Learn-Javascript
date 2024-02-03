@@ -1015,3 +1015,61 @@ function myFunction() {
 // A(4,5);
 
 // 36 *** Javascript Hosting ***
+
+// function A() {
+//     let x;
+//     console.log(x);
+//     x = 5;
+// }
+// A();
+
+// 36 *** Javascript Strict Mode ***
+
+// "use strict";
+// myFunction();
+
+// function myFunction() {
+//     y = 3.14;   // This will also cause an error because y is not declared
+// }
+
+// x = 3.14;       // This will not cause an error.
+// myFunction();
+
+// function myFunction() {
+//     "use strict";
+//     y = 3.14;   // This will cause an error
+// }
+
+// 37 *** Javascript this Keyword ***
+
+// const person = {
+//     fname: "Shamim",
+//     lname: "Hasan",
+//     id: 4968,
+//     fullName: function name() {
+//         return this.fname + " " + this.lname;
+//     },
+// }
+// console.log(person.fullName());
+
+// Whats is this
+
+// In an object method, this refers to the object.
+// Alone, this refers to the global object.
+// In a function, this refers to the global object.
+// In a function, in strict mode, this is undefined.
+// In an event, this refers to the element that received the event.
+// Methods like call(), apply(), and bind() can refer this to any object.
+
+// const person = {
+//     fname: "Shamim",
+//     lname: "Hasan",
+//     id: 4968,
+//     fullName: function name() {
+//         return this.fname + " " + this.lname;
+//     },
+//     getFullName: function () {
+//         return this.fullName();
+//     }
+// }
+// console.log(person.getFullName());
