@@ -1172,8 +1172,14 @@ function myFunction() {
 
 // 41 *** Javascript Modules Import/Export ***
 
-import {pi, a} from "./function"; // named import
-import * as test from "./function"; // all code import 
+// import {pi, a} from "./function.js"; // named import
+// import * as test from "./function.js"; // all code import
+// import { a as varA, pi as varpi } from "./function.js"; // import variables name change
+// import  external from "./function.js"; // default
+// import external, { pi } from "./function.js"; //default
+
+// console.log(external, pi);
+
 
 // 42 *** Javascript JSON Data Format ***
 
