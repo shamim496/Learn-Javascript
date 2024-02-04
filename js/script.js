@@ -1073,3 +1073,15 @@ function myFunction() {
 //     }
 // }
 // console.log(person.getFullName());
+
+// const person1 = {
+//     fullName: function () {
+//         return this.firstName + "" + this.lastName;
+//     }
+// }
+// const person2 = {
+//     firstName: "Shamim",
+//     lastName: "Hasan",
+// }
+// const all = person1.fullName.call(person2);
+// console.log(all);
