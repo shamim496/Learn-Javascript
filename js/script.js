@@ -1170,7 +1170,30 @@ function myFunction() {
 // person1.play("well");
 
 
+// 41 *** Javascript Modules Import/Export ***
 
+import {pi, a} from "./function"; // named import
+import * as test from "./function"; // all code import 
+
+// 42 *** Javascript JSON Data Format ***
+
+// JSON to Vaild Javascript
+// let text = '{ "employees" : [' +
+//     '{ "firstName":"John" , "lastName":"Doe" },' +
+//     '{ "firstName":"Anna" , "lastName":"Smith" },' +
+//     '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+
+// const obj = JSON.parse(text);
+// console.log(obj.employees[0].firstName);
+// console.log(text);
+
+// object to Json text format
+// let person = {
+//     fname: "Shamim",
+//     lname: "Hasan"
+// };
+// console.log(JSON.stringify(person));
 
 
 
