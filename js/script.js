@@ -1023,7 +1023,7 @@ function myFunction() {
 // }
 // A();
 
-// 36 *** Javascript Strict Mode ***
+// 37 *** Javascript Strict Mode ***
 
 // "use strict";
 // myFunction();
@@ -1040,7 +1040,7 @@ function myFunction() {
 //     y = 3.14;   // This will cause an error
 // }
 
-// 37 *** Javascript this Keyword ***
+// 38 *** Javascript this Keyword ***
 
 // const person = {
 //     fname: "Shamim",
@@ -1074,6 +1074,7 @@ function myFunction() {
 // }
 // console.log(person.getFullName());
 
+// Explicit Function Bilding
 // const person1 = {
 //     fullName: function () {
 //         return this.firstName + "" + this.lastName;
@@ -1085,3 +1086,93 @@ function myFunction() {
 // }
 // const all = person1.fullName.call(person2);
 // console.log(all);
+
+
+// const person1 = {
+//     fullname: function () {
+//         return this.firstName + " " + this.lastName;
+//     }
+// }
+// const person2 = {
+//     firstName: "Shamim",
+//     lastName: "Hasan",
+// }
+// console.log(person1.fullname.call(person2));
+
+// 39 *** Javascript Arrow function ***
+
+//  before
+// const hello = function (params) {
+//     return "Hello World";
+// }
+
+// with arrow function
+// const hello = (value) => {
+//     return "Hello World" + value;
+// }
+
+// Regular funtion
+// let hello = "";
+
+// hello = function () {
+//     document.getElementById("demo").innerHTML += this;
+// }
+
+// window.addEventListener("load", hello);
+
+// document.getElementById("btn").addEventListener("click", hello);
+
+// Arrow function this keyword different
+// let hello = "";
+//  hello = () => {
+//     document.getElementById("demo").innerHTML += this;
+//  }
+//  window.addEventListener("load", hello);
+//  document.getElementById("btn").addEventListener("click",hello);
+
+// 40 *** Javascript Classes ***
+
+// class Car {
+//     constructor(name, year) {
+//         this.name = name;
+//         this.year = year;
+//     }
+// }
+
+// const car1 = new Car("Toyota", 2017); //create actual object
+// const car2 = new Car("BMW", 2018); //create actual object
+// const car3 = new Car("Honda", 2010); //create actual object
+
+// class Person {
+//     constructor(name, age) {
+//         this.name = name;
+//         this.age = age;
+//     }
+// }
+
+// const perso1 = new Person("Shamim", 20); //create actual object
+// const perso2 = new Person("Hasan", 18); //create actual object
+
+// class Person {
+//     constructor(name, age) {
+//         this.name = name;
+//         this.age = age;
+//     }
+//    play(status) {
+//     console.log(`${this.name} is playing ${status}`);
+//     console.log(`${this.age} years old`);
+//    }
+// }
+
+// const person1 = new Person("Shamim", 20); //create actual object
+// const person2 = new Person("Hasan", 18); //create actual object
+
+// person1.play("well");
+
+
+
+
+
+
+
+
