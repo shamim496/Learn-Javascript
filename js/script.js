@@ -4,6 +4,8 @@
 // using let
 // using const
 
+
+
 // 2. ***Function***
 
 // function name(parameter1, parameter2, parameter3) {
@@ -17,6 +19,8 @@
 // // Function returns the product of a and b
 //   return a * b;
 // }
+
+
 
 // 3. ***Object***
 
@@ -38,8 +42,9 @@
 //   }
 // };
 
-// 4. ***String Method***
 
+
+// 4. ***String Method***
 
 // String length
 // String charAt()
@@ -62,6 +67,8 @@
 // String replaceAll()
 // String split()
 
+
+
 // 5. ***String Search Method***
 
 // String indexOf()
@@ -73,11 +80,15 @@
 // String startsWith()
 // String endsWith()
 
+
+
 // 6. ***JavaScript Template Strings***
 
 // let firstName = "John";
 // let lastName = "Doe";
 // let text = `Welcome ${firstName}, ${lastName}!`;
+
+
 
 // 7. ***JavaScript Numbers***
 
@@ -88,11 +99,15 @@
 // let x = 123e5;    // 12300000
 // let y = 123e-5;  // 0.00123
 
+
+
 // 8. ***Javascript BigInt***
 
 // let x = 1234567890123456789012345n;
 // let y = BigInt(1234567890123456789012345)
 // console.lo(y);
+
+
 
 // 9. ***JavaScript Number Methods***
 
@@ -109,6 +124,8 @@
 // Number.parseFloat()
 // Number.parseInt()
 
+
+
 // 10. ***JavaScript Number Properties***
 
 // EPSILON	The difference between 1 and the smallest number > 1.
@@ -120,9 +137,13 @@
 // NEGATIVE_INFINITY	Negative infinity(returned on overflow)
 // NaN not a Number
 
+
+
 // 11. ***Arrays***
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+
 
 // 12. ***Array Method***
 
@@ -184,6 +205,8 @@
 // let splice = fruits.slice(2,0, "Lemon", "Kiwi");
 // console.log(fruits);
 
+
+
 // 13 ***Javascript Sorting Array***
 
 // Alpabetic Sort
@@ -216,6 +239,8 @@
 // Home made Min()
 // Home made Max()
 
+
+
 // 14. ***Array Search Method***
 
 // Array indexOf()
@@ -246,6 +271,8 @@
 
 // Array findLast()
 // Array findLastIndex()
+
+
 
 // 15. ***Array Iteration Methods***
 
@@ -345,6 +372,8 @@
 // Array with()
 // Array Spread(...)
 
+
+
 // 16 ***Array Constant***
 
 // Array list of value, Array name not change, Box with Change
@@ -356,6 +385,8 @@
 // {
 //     const cars = ["Volvo", "BMW"]; // Allowed
 // }
+
+
 
 // 17 *** Javascript Dates ***
 
@@ -375,6 +406,8 @@
 // const dat = new Date(2024);
 // console.log(dat);
 
+
+
 // 18 *** Date Formats ***
 
 // Javascript Date Input
@@ -382,6 +415,8 @@
 // Short Date "03/25/2015"
 // Long Date "Mar 25 2015"
 // Date Input - Parse() Dates
+
+
 
 // 19 *** Date Get Methods ***
 
@@ -402,6 +437,8 @@
 
 // const d = new Date();
 // console.log(d.getTime());
+
+
 
 // 19 *** Date Set Methods ***
 
@@ -429,7 +466,9 @@
 //     console.log(text = "Today is after Jaunary 14, 2100.");
 // }
 
-// 19 *** Javascript Math Object ***
+
+
+// 20 *** Javascript Math Object ***
 
 // Example
 // Math.E        // returns Euler's number
@@ -484,7 +523,9 @@
 // Math.log2();
 // Math.log10();
 
-// 20 *** JavaScript Random ***
+
+
+// 21 *** JavaScript Random ***
 
 // Math.random()
 // Returns a random integer form 0 to 9
@@ -508,7 +549,9 @@
 // const myFunction = getRndInteger(0, 20);
 // console.log(myFunction);
 
-// 20 *** Problem Sloving Javascript ***
+
+
+// 22 *** Problem Sloving Javascript ***
 
 // Random ludu number
 // function getRndInteger(min, max) {
@@ -590,13 +633,16 @@
 
 // console.log(duplicate);
 
-// 20 *** Booleans Function() ***
+
+
+// 23 *** Booleans Function() ***
 
 // Boolean(10>9); //return true
 // false c value null, Nan, false, undefined, 0, empty string,
 
 
-// 21 *** Comparison operators ***
+
+// 23 *** Comparison operators ***
 
 // let age = 17;
 
@@ -627,7 +673,9 @@
 //     console.log(age < 18 ? "Too young" : "Old enough");
 // }
 
-// 22 *** Condition If else else if ***
+
+
+// 24 *** Condition If else else if ***
 
 // if
 // else
@@ -681,7 +729,9 @@
 
 // document.getElementById("demo").innerHTML = `Today is ${day}`;
 
-// 23 *** Javascript For Loop ***
+
+
+// 24 *** Javascript For Loop ***
 
 // For loop
 // const cars = ["A", "B", "C", "D", "E", "F", "G"];
@@ -720,7 +770,9 @@
 //     console.log(numbers[number]);
 // }
 
-// 24 *** Javascript For of loop iterable object ***
+
+
+// 25 *** Javascript For of loop iterable object ***
 
 // iterable object Arrays, Strings, Maps, Nodelists and MutationRecord;
 
@@ -730,7 +782,9 @@
 //     console.log(x);
 // }
 
-// 25 *** While Loop ***
+
+
+// 26 *** While Loop ***
 
 // Syntax
 
@@ -759,7 +813,9 @@
 
 // console.log(text);
 
-// 26 *** Break and Continue ***
+
+
+// 27 *** Break and Continue ***
 
 // Break
 // let text = "";
@@ -774,7 +830,9 @@
 // label:
 // statement
 
-// 27 *** Javascript ilterable ***
+
+
+// 28 *** Javascript ilterable ***
 
 // const person = {
 //     fname: "Shamim",
@@ -790,7 +848,9 @@
 //     // code block to be executed
 // }
 
-// 28 *** Javascript Sets Method ***
+
+
+// 29 *** Javascript Sets Method ***
 
 // new Set()
 // Create a Set
@@ -820,7 +880,9 @@
 
 // console.log(letter.values());
 
-// 29 *** Javascript Maps Methods ***
+
+
+// 30 *** Javascript Maps Methods ***
 
 // Create a Map key value map
 
@@ -855,7 +917,9 @@
 // fruits.set("oranges", 200);
 // console.log(fruits);
 
-// 30 *** Javascript Typeof ***
+
+
+// 31 *** Javascript Typeof ***
 
 // javascript there are 5 different data typers that can contain values
 // string, number, boolean, object, function
@@ -915,7 +979,9 @@
 // null === undefined //false
 // null == undefined // true
 
-// 31 *** Javascript Type Conversion ***
+
+
+// 32 *** Javascript Type Conversion ***
 
 // console.log(Number("               "));
 // console.log(Number("99 88"));
@@ -941,11 +1007,15 @@
 
 // Automatic type Conversion
 
-// 32 ***Javascript Bitwise Operations***
+
+
+// 33 ***Javascript Bitwise Operations***
 
 // (3).toString();
 
-// 33 ***Javascript Regular Expressions***
+
+
+// 34 ***Javascript Regular Expressions***
 
 // let text = "12345567";
 // let result = text.match(/[1-4]/g);
@@ -955,7 +1025,9 @@
 // let result = color.match(/(red|green)/g);
 // console.log(result);
 
-// 34 *** Javascript Errors Throw and Try To catch ***
+
+
+// 35 *** Javascript Errors Throw and Try To catch ***
 
 // Try, Catch, Throw, Finally
 
@@ -981,7 +1053,9 @@
 
 // console.log("this is a test");
 
-// 35 *** Javascript Scope ***
+
+
+// 36 *** Javascript Scope ***
 
 // Javascript Has 3 types of scope
 // Block scope, Function scope, Global scope
@@ -1014,7 +1088,9 @@ function myFunction() {
 // }
 // A(4,5);
 
-// 36 *** Javascript Hosting ***
+
+
+// 37 *** Javascript Hosting ***
 
 // function A() {
 //     let x;
@@ -1023,7 +1099,9 @@ function myFunction() {
 // }
 // A();
 
-// 37 *** Javascript Strict Mode ***
+
+
+// 38 *** Javascript Strict Mode ***
 
 // "use strict";
 // myFunction();
@@ -1040,7 +1118,9 @@ function myFunction() {
 //     y = 3.14;   // This will cause an error
 // }
 
-// 38 *** Javascript this Keyword ***
+
+
+// 39 *** Javascript this Keyword ***
 
 // const person = {
 //     fname: "Shamim",
@@ -1099,7 +1179,9 @@ function myFunction() {
 // }
 // console.log(person1.fullname.call(person2));
 
-// 39 *** Javascript Arrow function ***
+
+
+// 40 *** Javascript Arrow function ***
 
 //  before
 // const hello = function (params) {
@@ -1130,7 +1212,9 @@ function myFunction() {
 //  window.addEventListener("load", hello);
 //  document.getElementById("btn").addEventListener("click",hello);
 
-// 40 *** Javascript Classes ***
+
+
+// 41 *** Javascript Classes ***
 
 // class Car {
 //     constructor(name, year) {
@@ -1170,7 +1254,8 @@ function myFunction() {
 // person1.play("well");
 
 
-// 41 *** Javascript Modules Import/Export ***
+
+// 42 *** Javascript Modules Import/Export ***
 
 // import {pi, a} from "./function.js"; // named import
 // import * as test from "./function.js"; // all code import
@@ -1181,7 +1266,8 @@ function myFunction() {
 // console.log(external, pi);
 
 
-// 42 *** Javascript JSON Data Format ***
+
+// 43 *** Javascript JSON Data Format ***
 
 // JSON to Vaild Javascript
 // let text = '{ "employees" : [' +
@@ -1203,5 +1289,58 @@ function myFunction() {
 
 
 
+// 44 *** Javascript Debugging ***
 
+// Programming code might contain syntax errors or logical error
+
+// class Person {
+//     constructor(name, age) {
+//         this.name = name;
+//         debugger;
+//         this.age = age;
+//     }
+//    play(status) {
+//     debugger;
+//     console.log(`${this.name} ${this.age} years old is playing ${status}`);
+
+//    }
+// }
+
+// debugger;
+// const person1 = new Person("Shamim"); //create actual object
+// const person2 = new Person("Hasan", 18); //create actual object
+
+
+
+// 45 *** Javascript Style Guide ***
+
+// Javascript Coding Conventions
+
+// Javascript camelCase
+
+
+
+// 46 *** Javascript Best Practices ***
+
+// avoid global variables, avoid new, avoid ==, avoid eval()
+
+// Always Local Variables var, let
+
+// Declare at the beginning
+// let firstName, lastName, price, discount, fullPrice;
+
+// // Use later
+// firstName = "John";
+// lastName = "Doe";
+
+// price = 19.90;
+// discount = 0.10;
+
+// fullPrice = price - discount;
+
+// Declare Array object with const
+
+
+
+// 47 *** Javascript Mistakes ***
 
