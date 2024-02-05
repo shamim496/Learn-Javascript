@@ -1344,3 +1344,22 @@ function myFunction() {
 
 // 47 *** Javascript Mistakes ***
 
+// Misunderstanding Floats
+// let x = 0.1;
+// let y = 0.2;
+// let z = x+y;
+// console.log(z);
+
+// function myFunction(params) {
+
+// }
+
+// 48 *** Javascript Performance ***
+
+const arr = [1, 2, 3];
+
+const length = arr.length;
+
+for (let i = 0; i < length; i++) {
+    console.log(i);
+}
