@@ -755,7 +755,7 @@
 // Javascript for in loop
 // const person = { // object loop
 //     fname: "Shamim",
-//     lame: "Hasan",
+//     lname: "Hasan",
 //     age: 25
 // };
 
@@ -1017,6 +1017,10 @@
 
 // 34 ***Javascript Regular Expressions***
 
+// Regular Experssion write /s/
+// i flag
+// g global flag
+
 // let text = "12345567";
 // let result = text.match(/[1-4]/g);
 // console.log(result);
@@ -1063,9 +1067,9 @@
 // Block Scope
 // let, const block scope in javascript
 
-function myFunction() {
-    // let x; local variables function scope
-}
+// function myFunction() {
+//     // let x; local variables function scope
+// }
 
 // var is Global scope and function scope
 // let const is block scope
@@ -1354,12 +1358,149 @@ function myFunction() {
 
 // }
 
+
+
 // 48 *** Javascript Performance ***
 
-const arr = [1, 2, 3];
+// const arr = [1, 2, 3];
 
-const length = arr.length;
+// const length = arr.length;
 
-for (let i = 0; i < length; i++) {
-    console.log(i);
-}
+// for (let i = 0; i < length; i++) {
+//     console.log(i);
+// }
+
+
+
+// 49 *** Javascript Reserved Words ***
+
+// In JavaScript you cannot use these reserved words as variables, labels, or function names
+// Not using Html event Handler
+
+
+
+// 50 *** Javascript problem sloving 2 ***
+
+// sentence finding shamim
+
+// const sentence = "leran with shamim is all about teaching web development skills and pratical manner. shamim has all shamim full stack developer shamim is topies using popular techology shamim";
+
+// const matches = sentence.match(/shamim/gi);
+// const ocurance = matches ? matches.length : 0;
+// console.log(ocurance);
+
+// let position = sentence.search(/shamim/i);
+// position = position >= 0 ? position : "not found";
+
+// console.log(position);
+
+
+
+// problem: linearSearch() function implement
+
+// function linearSearch(arr, val) {
+//     const length = arr.length;
+//     for(let i = 0; i < length; i++) {
+//         if(arr[i] === val) {
+//             return i;
+//         }
+//     }
+//     return "not found";
+// }
+
+// console.log(linearSearch(['a', 'b', 'c', 'd', 'c'], 'z'));
+
+
+
+// problem: Array big string finding index number
+
+// function longerString(names) {
+//     let longerWord = "";
+
+//     for(name of names) {
+//         if (name.length > longerWord.length) {
+//             longerWord = name;
+//         }
+//     }
+//     return [longerWord, names.indexOf(longerWord)];
+// }
+
+// console.log(longerString(['Shamim Hasan', 'Learn with shamim', 'hasan', 'shamim hasan shohid', 'saad']));
+
+
+
+// problem: 1-100 3,5 vibasjo
+
+// function fizzBuzz(number) {
+//     for(let i = 1; i <= number; i++) {
+//         if(i % 15 === 0) {
+//             console.log(`${i} is FizzBuzz`);
+//         }else if (i % 3 === 0) {
+//             console.log(`${i} is Buzz`);
+//         }else{
+//             console.log(i);
+//         }
+//     }
+// }
+
+// fizzBuzz(100);
+
+
+
+// Problem: Array falsy value except
+
+// false, undefined, Nan, null, '', 0
+
+// const mixedArr = [
+//     "lws",
+//     undefined,
+//     "learn with shamim",
+//     false,
+//     "",
+//     "apple",
+//     true,
+//     "Thanks",
+//     NaN
+// ];
+
+
+// const trueArray = mixedArr.filter(function(element) {
+//     if (element) {
+//         return true;
+//     }else{
+//         return false;
+//     }
+// });
+
+// Shortcut way
+// const trueArray = mixedArr.filter(Boolean);
+
+// console.log(trueArray);
+
+
+
+// Problem: object to falsy value excpet
+
+// const obj = {
+//     a: "lws",
+//     b: undefined,
+//     c: "learn with shamim",
+//     d: false,
+//     f: "apple",
+//     g: 40,
+//     i: true,
+//     j: "All",
+//     k: NaN,
+// }
+
+// const trueObj = function (obj) {
+
+//     for(let i in obj) {
+//         if (!obj[i]) {
+//             delete obj[i];
+//         }
+//     }
+//     return obj;
+// }
+
+// console.log(trueObj(obj));
