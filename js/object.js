@@ -84,4 +84,11 @@
 //     }
 // }
 
+// Property Attibutes is it readable, is it writable
 
+
+// prototype properties
+
+// let a = "Bangladesh";
+
+// console.dir(a);
