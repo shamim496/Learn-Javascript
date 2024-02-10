@@ -336,4 +336,178 @@
 
 // const x = "";
 
-// console.log(x.doingFun())
+// console.log(x.doingFun());
+
+
+// 8 *** Javascript Object Lterables one one Order by Loop ***
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7];
+
+// for (let i = 0; i < numbers.length; i++) {
+//       console.log(numbers[i]);
+// }
+
+// for of loop
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7];
+
+// for (let n of numbers) {
+//     console.log(n);
+// }
+
+// Array is iterables, Object is not iterables
+// const numbers = {
+//     one: 1,
+//     two: 2,
+//     three: 3
+// };
+
+// const nums = [1, 2, 3];
+
+// console.dir(numbers); //symbol.iterator
+// console.dir(nums); //symbol.iterator not found
+
+
+// const numbers = {
+//     one: 1,
+//     two: 2,
+//     three: 3
+// };
+
+// const nums = [1, 2, 3];
+
+// const numIterator = (nums[Symbol.iterator]());
+
+// // for (let n of  nums) {
+// //     console.log(n);
+// // }
+
+// console.log(numIterator.next());
+// console.log(numIterator.next());
+// console.log(numIterator.next());
+// console.log(numIterator.next());
+
+// const myNumbers = {};
+
+// // make it iterable
+// myNumbers[Symbol.iterator] = function () {
+//     let n = 0;
+//     let done = false;
+//     return {
+//         next() {
+//             n += 10;
+//             if (n==100) {
+//                 done = true
+//             }
+//             return {
+//                 value: n,
+//                 done: done
+//             }
+//         }
+//     }
+// }
+
+// for (let num of myNumbers) {
+//     console.log(num);
+// }
+
+
+
+// 9 *** Javascript object Sets ***
+
+// Set All Methods
+
+// new Map()
+// get()
+// clear()
+// delete ()
+// has()
+// forEach()
+// entries()
+// keys()
+// values()
+// size()
+
+// set datatype javascript
+
+// const letters = new Set();
+
+// console.dir(letters);
+
+// const a = letters.add("e");
+
+// const letters = new Set(["a", "b", "c"]);
+
+// const letterIterator = letters.values();
+
+// for (let a of letterIterator) {
+//     console.log(a);
+// }
+
+// The keys() Method
+//  values() iterator
+
+
+// The entries() Method key values pairs
+// const a = {
+//     fname: "shamim",
+//     lname: "hasan"
+// };
+
+// console.log(Object.entries(a));
+
+
+//
+// const letters = new Set(["a", "b", "c"]);
+
+// const myIterator = letters.entries();
+
+// for (const entry of myIterator) {
+//     console.log(entry);
+// }
+
+
+// set using instanceof
+// const letters = new Set(["a", "b", "c"]);
+// const letter = ["a", "b", "c"];
+//
+// console.log(letter instanceof);
+// console.log(letters instanceof Set);
+
+
+
+// 10 *** Javascript Object Maps ***
+
+// Maps all Methods
+
+// new Map()
+// get()
+// clear()
+// delete ()
+// has()
+// forEach()
+// entries()
+// keys()
+// values()
+// size()
+
+// Maps Sentence
+// const person = new Map([
+//     ["Shamim", 500],
+//     ["Hasan", 300],
+//     ["Shohid", 200]
+//     // Shamim Keys // 500 Values
+// ]);
+
+
+// Map.set()
+// const fruits = new Map();
+
+// fruits.set("apple", 500);
+// fruits.set("bananas", 300);
+// fruits.set("jackfruits", 100);
+
+// fruits.delete("apple");
+// fruits.has("apple");
+
+// console.log(fruits);
