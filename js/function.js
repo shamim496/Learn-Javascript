@@ -145,3 +145,37 @@
 // }
 
 // console.log(sumAll(1, 123, 500, 115, 44, 88));
+
+
+// arguments passed by value
+
+// function a(x, y) {
+//     x = x * 5;
+//     return x * y;
+// }
+
+// let m = 5;
+// let n = 6;
+
+// console.log(a(m,n));
+// console.log(m);
+
+
+// object are passing by Referance
+
+// function a(x) {
+//     x.one = 7;
+//     return x.one * x.two;
+// }
+
+// let m = {
+//     one: 4,
+//     two: 5
+// };
+
+// console.log(a(m));
+// console.log(m);
+
+
+
+// 3 *** Javaacript Function Invocation ***
