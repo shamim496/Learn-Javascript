@@ -178,4 +178,4 @@
 
 
 
-// 3 *** Javaacript Function Invocation ***
+// 3 *** Javascript Function Invocation ***
