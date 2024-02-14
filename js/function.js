@@ -310,3 +310,18 @@
 // function myFunction() {
 //     a = 4; //global variables
 // }
+
+
+function add() {
+    let counter = 0;
+    counter += 1;
+    return counter;
+}
+
+// call add() 3 times
+add();
+add();
+add();
+
+console.log(counter);
+
