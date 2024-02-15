@@ -1504,3 +1504,104 @@
 // }
 
 // console.log(trueObj(obj));
+
+
+
+// 51 *** Javascript classes ***
+
+// class intro
+
+// class Car {
+//     constructor (name, year) {
+//         this.name = name;
+//         this.year = year;
+//     }
+// }
+
+// // using class
+// const toyota = new Car("Toyota", 2019);
+// console.log(toyota);
+
+
+// class Car {
+//     constructor(name, year) {
+//         this.name = name;
+//         this.year = year;
+//     }
+
+//     run(speed) {
+//         console.log(this.name + " is running in " + speed);
+//     }
+// }
+
+// const toyota = new Car("Toyota", 1999);
+// const audi = new Car("Audi", 2000);
+
+// audi.run("100 km per hour");
+
+
+
+// 52 *** Javascript Inheritance ***
+
+// class Car {
+//     constructor(brand) {
+//         this.carname = brand;
+//     }
+//     present() {
+//         return 'I have a ' + this.carname;
+//     }
+// }
+
+// class Model extends Car {
+//     constructor(brand, mod) {
+//         super(brand);
+//         this.model = mod;
+//     }
+//     show() {
+//         return this.present() + ', it is a ' + this.model;
+//     }
+// }
+
+// let myCar = new Model("Toyota", "Esquire");
+
+// console.log(myCar.show());
+
+
+// Getters and Setters
+
+// class Car {
+//     constructor(brand) {
+//         this.carname = brand;
+//     }
+//     get carnam() {
+//         return this.carname;
+//     }
+//     set carnam(x) {
+//         this.carname = x;
+//     }
+// }
+
+// const myCar = new Car("Toyota");
+
+// console.log(myCar.carnam);
+
+
+
+// *** 53 Javascript Static Methods ***
+
+// class Car {
+//     constructor(name) {
+//         this.name = name;
+//     }
+//     static hello() {
+//         return "hello";
+//     }
+// }
+
+// let myCar = new Car("Toyota");
+// console.log(Car.hello());
+
+
+
+
+

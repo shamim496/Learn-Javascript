@@ -312,16 +312,48 @@
 // }
 
 
-function add() {
-    let counter = 0;
-    counter += 1;
-    return counter;
-}
+// function add() {
+//     let counter = 0;
+//     counter += 1;
+//     return counter;
+// }
 
-// call add() 3 times
-add();
-add();
-add();
+// // call add() 3 times
+// add();
+// add();
+// add();
 
-console.log(counter);
+// console.log(counter);
 
+
+// Javascript Nested functions
+
+// function add() {
+//     let counter = 0;
+
+//     function plus() {
+//         counter += 1;
+//     }
+
+//     plus()
+
+//     return counter;
+// }
+
+
+// function temporary() {
+//     let counter = 0;
+
+//     return function() {
+//         counter += 1;
+//     }
+// }
+
+// const add = temporary(); // add is function iat the end
+
+// console.dir(add);
+// add();
+// console.dir(add);
+// add();
+// console.dir(add);
+// add();
