@@ -119,3 +119,57 @@
 // enroll(function () {
 //     progress(getCertificate);
 // });
+
+
+
+// 4 *** Javascript Async Promises ***
+
+// const paymentSuccess = true;
+// const marks = 90;
+
+// function enroll(pay) {
+//     console.log("Course enrollment is in progress");
+
+//     setTimeout(function () {
+//         if(paymentSuccess) {
+//             pay();
+//         }else {
+//             console.log("Payment failed");
+//         }
+//     }, 2000);
+// }
+
+
+// function progress(result) {
+//     console.log("Course on progress....");
+
+//     setTimeout(function () {
+//         if (marks >= 80) {
+//             result();
+//         }else{
+//             console.log("you could not get enpugh marks to get the certificate");
+//         }
+//     },3000);
+// }
+
+// function getCertificate() {
+//     console.log("perparing your certificate");
+
+//     setTimeout(function () {
+//         console.log("Congration Certificate");
+//     },1000);
+// }
+
+// enroll(function () {
+//     progress(function () {
+//         C(function () {
+//             D(function () {
+//                 E(function () {
+//                     F(function () { // Callback hell
+
+//                     });
+//                 });
+//             });
+//         });
+//     });
+// });
