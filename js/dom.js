@@ -26,3 +26,8 @@
 
 // * method
 // Element.setAttribute(attribute, value)
+
+
+
+// 3 *** Javascript HTML Dom Element ***
+
