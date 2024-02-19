@@ -1,33 +1,5 @@
-// const status = false;
-
-// console.log("Task 1");
-
-// // promise Difinition
-// const promise = new Promise(function(resolve, reject) { //resolve, reject anyone parameters
-//     setTimeout(function () {
-//         if (status) {
-//             resolve("Task 2");
-//         } else {
-//             reject("Failed");
-//         }
-//     }, 2000);
-// });
-
-// // promise call
-// promise
-//     .then(function (value) {
-//         console.log(value);
-//     })
-//     .catch(function (err) {
-//         console.log(err);
-//     });
-
-// console.log("Task 3");
-
-
-
-// const paymentSuccess = true;
-// const marks = 0;
+// const paymentSuccess = false;
+// const marks = 80;
 
 
 // function enroll() {
@@ -72,6 +44,22 @@
 //     });
 //     return promise;
 // }
+
+
+// async function course() {
+//     try {
+//     await enroll();
+//     await progress();
+//     const massage = await getCertificate();
+
+//     console.log(massage);
+//     }catch(err) {
+//         console.log(err);
+//     }
+
+// }
+
+// course();
 
 // enroll()
 //     .then(progress)
