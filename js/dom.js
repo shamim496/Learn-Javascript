@@ -117,9 +117,50 @@
 // p.style.fontSize = "20px";
 
 
-function myStyle() {
-    const p = document.querySelector("#demo");
+// function myStyle() {
+//     const p = document.querySelector("#demo");
 
-    p.style.color = "red";
-    p.style.fontSize = "20px";
+//     p.style.color = "red";
+//     p.style.fontSize = "20px";
+// }
+
+
+
+// 9 *** Javascript Dom Animations ***
+
+// function myMove() {
+//     const move = document.getElementById("animate");
+
+//     let pos = 0;
+
+//     const int = setInterval(frame, 5);
+
+//     function frame() {
+//         if (pos < 350) {
+//             pos++;
+//             animate.style.top = pos + 'px';
+//             animate.style.left = pos + 'px';
+//         }else{
+//             clearInterval(int);
+//         }
+//     }
+// }
+
+
+function moveAnimate() {
+    const move = document.getElementById("animate");
+
+    let pos = 0;
+
+    const int = setInterval(function frame() {
+        if (pos < 350) {
+            pos++;
+            move.style.top = pos + 'px';
+            move.style.left = pos + 'px';
+        }else{
+            clearInterval(int);
+        }
+    }, 5);
 }
+
+
