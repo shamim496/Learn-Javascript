@@ -147,20 +147,119 @@
 // }
 
 
-function moveAnimate() {
-    const move = document.getElementById("animate");
+// function moveAnimate() {
+//     const move = document.getElementById("animate");
 
-    let pos = 0;
+//     let pos = 0;
 
-    const int = setInterval(function frame() {
-        if (pos < 350) {
-            pos++;
-            move.style.top = pos + 'px';
-            move.style.left = pos + 'px';
-        }else{
-            clearInterval(int);
-        }
-    }, 5);
+//     const int = setInterval(function frame() {
+//         if (pos < 350) {
+//             pos++;
+//             move.style.top = pos + 'px';
+//             move.style.left = pos + 'px';
+//         }else{
+//             clearInterval(int);
+//         }
+//     }, 5);
+// }
+
+
+
+// 10 *** Javascript Dom Events ***
+
+// function changeText() {
+//     const title = document.querySelector('#title');
+//     title.innerHTML = "Hello world";
+// }
+
+// function myFunction() {
+//     const btn = document.querySelector("#demo");
+//     btn.style.color = "red";
+// }
+
+
+
+// 11 *** Javascript Event Listener ***
+
+// function myFunction() {
+//     console.log("Hello World");
+// }
+
+// const button = document.getElementById("btn");
+
+// button.addEventListener("click", myFunction)
+
+
+
+// let p1 = 5;
+// let p2 = 7;
+
+// const result = document.getElementById("btn");
+
+// result.addEventListener("click", function () {
+//     myFunction(p1, p2);
+// });
+
+
+// function myFunction(a, b) {
+//     document.getElementById("demo").innerHTML = a * b;
+// }
+
+
+// Bubbling Mode
+// function myFunction(text) {
+//     console.log(text);
+// }
+
+// const button = document.getElementById("btn");
+// const container = document.getElementById("container");
+
+// button.addEventListener("click", function () {
+//     myFunction("Hello World");
+// });
+
+// container.addEventListener("click", function() {
+//     myFunction("Hello Div");
+// });
+
+
+// Capturing Mode
+// function myFunction(text) {
+//     console.log(text);
+// }
+
+// const button = document.getElementById("btn");
+// const container = document.getElementById("container");
+
+// button.addEventListener("click", function () {
+//     myFunction("Hello World");
+// }, true);
+
+// container.addEventListener("click", function () {
+//     myFunction("Hello Div");
+// }, true);
+
+
+// Javascript removeEventListener()
+
+// document.getElementById("container").addEventListener("mousemove", myFunction);
+
+// function myFunction() {
+//     document.getElementById("demo").innerHTML = Math.random();
+// };
+
+// function removeHandler() {
+//     document.getElementById("container").removeEventListener("mousemove", myFunction);
+// }
+
+document.getElementById("container").addEventListener("mousemove", myFunction);
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = Math.random();
 }
 
+const button = document.getElementById("btn");
 
+button.addEventListener("click", function() {
+    document.getElementById("container").removeEventListener("mousemove", myFunction);
+});
