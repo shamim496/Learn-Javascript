@@ -252,14 +252,51 @@
 //     document.getElementById("container").removeEventListener("mousemove", myFunction);
 // }
 
-document.getElementById("container").addEventListener("mousemove", myFunction);
+// document.getElementById("container").addEventListener("mousemove", myFunction);
 
-function myFunction() {
-    document.getElementById("demo").innerHTML = Math.random();
-}
+// function myFunction() {
+//     document.getElementById("demo").innerHTML = Math.random();
+// }
 
-const button = document.getElementById("btn");
+// const button = document.getElementById("btn");
 
-button.addEventListener("click", function() {
-    document.getElementById("container").removeEventListener("mousemove", myFunction);
-});
+// button.addEventListener("click", function() {
+//     document.getElementById("container").removeEventListener("mousemove", myFunction);
+// });
+
+
+
+// 12 *** Javascript Dom Navigation ***
+
+// parentNode
+// childNodes[nodenumber]
+// firstChild
+// lastChild
+// nextSibling
+// previousSibling
+
+
+// const p = document.getElementById("demo");
+
+// console.log(p.innerHTML);
+
+// const way1 = p.innerHTML;
+
+// const way2 = p.firstChild.nodeValue;
+
+// const way3 = p.childNodes[0].nodeValue;
+
+// The nodeName property
+// const way4 = p.childNodes[0].nodeName; //nodeName not change
+
+// console.log(way4);
+
+
+// The nodeName property
+
+// ELEMENT_NODE	1 <h1 class="heading">W3Schools</h1>
+// ATTRIBUTE_NODE	2 class= "heading"(deprecated)
+// TEXT_NODE	3 W3Schools
+// OMMENT_NODE	8 <!---This is a commant -- >
+DOCUMENT_NODE	9 The HTML document itself (the parent of <html);
+DOCUMENT_TYPE_NODE	10
