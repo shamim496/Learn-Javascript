@@ -295,8 +295,24 @@
 // The nodeName property
 
 // ELEMENT_NODE	1 <h1 class="heading">W3Schools</h1>
-// ATTRIBUTE_NODE	2 class= "heading"(deprecated)
-// TEXT_NODE	3 W3Schools
+// ATTRIBUTE_NODE 2 class= "heading"(deprecated)
+// TEXT_NODE 3 W3Schools
 // OMMENT_NODE	8 <!---This is a commant -- >
-DOCUMENT_NODE	9 The HTML document itself (the parent of <html);
-DOCUMENT_TYPE_NODE	10
+// DOCUMENT_NODE 9 The HTML document itself (the parent of <html);
+// DOCUMENT_TYPE_NODE 10 <!Doctype html>
+
+
+
+// 13 *** Javascript HTML DOM ELements Nodes ***
+
+// const para = document.createElement("p");
+
+// const node = document.createTextNode("Hello World");
+
+// para.appendChild(node);
+
+// const element = document.getElementById("div1");
+
+// element.appendChild(para);
+
+    
