@@ -289,7 +289,16 @@
 // The nodeName property
 // const way4 = p.childNodes[0].nodeName; //nodeName not change
 
-// console.log(way4);
+// console.log(way1);
+
+// const list = document.getElementById("list");
+
+// const list1 = list.childNodes[1].nodeValue;
+
+// console.log(list1);
+
+// console.log(document.documentElement); full html element
+// console.log(document.body); full body
 
 
 // The nodeName property
@@ -306,13 +315,68 @@
 // 13 *** Javascript HTML DOM ELements Nodes ***
 
 // const para = document.createElement("p");
-
 // const node = document.createTextNode("Hello World");
+
+// para.appendChild(node); //<p>Hello World</p>
+
+// const element = document.getElementById("div1");
+// element.appendChild(para)
+
+// insertBefore
+
+// const p2 = document.getElementById("p2");
+// element.insertBefore(para, p2);
+
+// remove Element
+
+// const p2 = document.getElementById("p2");
+// p2.remove();
+
+// remove Element by removeChild() older browers support
+
+// const div1 = document.getElementById("div1");
+// const p2 = document.getElementById("p2");
+// div1.removeChild(p2);
+
+
+// Replacing HTML Elements
+
+// const para = document.createElement("p"); //create new p element
+// const node = document.createTextNode("This is new"); //
 
 // para.appendChild(node);
 
-// const element = document.getElementById("div1");
+// const div1 = document.getElementById("div1");
+// const p3 = document.getElementById("p3");
 
-// element.appendChild(para);
+// div1.replaceChild(para, p3);
 
-    
+
+
+// 34 *** Javascript Dom Collections Lists ***
+
+// An HTMLCollection may look like an array, but it is not.
+
+// You can loop through the list and refer to the elements with a number(just like an array).
+
+// However, you cannot use array methods like valueOf(), pop(), push(), or join() on an HTMLCollection.
+
+
+
+// 35 *** Javascript HTML DOM Node lists ***
+
+// console.dir(document.getElementsByTagName("p"));
+// console.dir(document.querySelectorAll(".hello"));
+
+// HTMLCollection items can be accessed by their name, id or index number
+// NodeLists items can only accessed by their index number
+
+// const nodelist = document.getElementsByClassName("hello");
+// const htmlCollection = document.querySelectorAll(".hello");
+
+// console.dir(nodelist);
+// console.dir(htmlCollection);
+
+// console.log(htmlCollection[0]);
+// console.log(htmlCollection['one']); nodelist id name not asscess
+// console.log(nodelist[0]);
