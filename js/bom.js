@@ -70,11 +70,13 @@ const href = document.getElementById("href");
 const hostname = document.getElementById("hostname");
 const path = document.getElementById("pathname");
 const protocol = document.getElementById("protocol");
+const port = document.getElementById("port");
 
 href.innerHTML = "href: " + location.hostname;
 hostname.innerHTML = "Hostname: " + location.hostname;
 path.innerHTML = "Pathname: " + location.pathname;
 protocol.innerHTML = "Protocol: " + location.protocol;
+port.innerHTML = "Port: " + location.port;
 
 // window location method
 
