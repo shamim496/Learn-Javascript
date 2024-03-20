@@ -26,23 +26,23 @@
 
 // 3 *** Function Destructure ***
 
-const obj = {
+// const obj = {
 
-    person: {
-        name: "Shamim",
-        roll: 58,
-        address: "Bogura"
-    }
-}
+//     person: {
+//         name: "Shamim",
+//         roll: 58,
+//         address: "Bogura"
+//     }
+// }
 
-const arr = [
-    function add(a, b) {
-        return a + b;
-    }
-]
+// const arr = [
+//     function add(a, b) {
+//         return a + b;
+//     }
+// ]
 
 
-// object Destructure
+// ** object Destructure
 
 // const func = (object) => {
 //      const {person} = object; //Destructure
@@ -55,15 +55,15 @@ const arr = [
 
 // object same Destructure
 
-const func = ({ person }) => {
-    const {name, roll, address} = person
-    console.log(name);
-}
+// const func = ({ person }) => {
+//     const {name, roll, address} = person
+//     console.log(name);
+// }
 
-func(obj);
+// func(obj);
 
 
-// // array Destructure
+// ** array Destructure
 
 // function func2([addFun]) {
 //     const [] =
@@ -74,4 +74,5 @@ func(obj);
 // }
 
 // func2(arr);
+
 
