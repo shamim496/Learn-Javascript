@@ -29,7 +29,7 @@
 // }
 
 // function backTo() {
-//     window.history.go(n);
+//     window.history.go(n); +
 // }
 
 // function forward() {
@@ -39,3 +39,7 @@
 // function getHistory() {
 //     alert(window.history.length);
 // }
+
+
+
+// 3 *** Javascript Web Storage Api ***
