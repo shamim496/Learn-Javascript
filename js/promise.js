@@ -74,7 +74,7 @@
 // }
 
 // enroll()
-//     .then(progress)
+    // .then(progress) // function body
 //     .then(getCertificate)
 //     .then(function (value) {
 //         console.log(value);
